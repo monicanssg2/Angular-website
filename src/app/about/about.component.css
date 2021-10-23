@@ -1,0 +1,45 @@
+.about
+{
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-color: rgb(26, 188, 156) !important;
+}
+h1{
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+.divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 0px 1.5rem;
+}
+.divider-icon
+{
+    font-size: 2rem;
+    color: white;
+}
+.divider-line
+{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+    border-color: rgb(44, 62, 80) !important;
+
+}
+.divider-line:first-child {
+    margin-right: 1rem;
+}
+.divider-line:last-child {
+    margin-left: 1rem;
+}
+p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+}

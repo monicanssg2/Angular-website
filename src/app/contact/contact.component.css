@@ -1,0 +1,73 @@
+.contact
+{
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+}
+h1{
+    font-size: 4rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    color: rgb(44, 62, 80) !important;
+}
+.divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 0px 1.5rem;
+}
+.divider-icon
+{
+    font-size: 2rem;
+    color: rgb(44, 62, 80) !important;
+}
+.divider-line
+{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: rgb(44, 62, 80) !important;
+    border-radius: 1rem;
+    border-color: rgb(44, 62, 80) !important;
+
+}
+.divider-line:first-child {
+    margin-right: 1rem;
+}
+.divider-line:last-child {
+    margin-left: 1rem;
+}
+.floating-label-form-group {
+    position: relative;
+    border-bottom: 1px solid rgb(233, 236, 239);
+}
+.floating-label-form-group input, .floating-label-form-group textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding-right: 0px;
+    padding-left: 0px;
+    resize: none;
+    box-shadow: none !important;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0px;
+    background: none;
+}
+.btn-primary
+{
+    background-color: rgb(26, 188, 156);
+}
+.btn-primary:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 154, 128);
+    border: none;
+}
+.btn-lg
+{
+    font-size: 1.25rem !important;
+    padding: 1rem 1.75rem !important;
+}
